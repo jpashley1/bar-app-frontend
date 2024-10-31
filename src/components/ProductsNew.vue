@@ -9,6 +9,7 @@ export default {
     handleSubmit: function () {
       this.$emit("createProduct", this.newProductParams);
       this.newProductParams = {};
+      console.log("testing submit")
     },
   },
 };
